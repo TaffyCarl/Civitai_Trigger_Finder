@@ -1,3 +1,4 @@
+NOW REDUNDANT! IT'S JUST HERE TO SHOW THERE'S NOTHING NASTY ABOUT IT. USE THE ZIP VERSIONS
 import os
 import hashlib
 import requests
@@ -172,3 +173,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
