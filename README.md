@@ -4,7 +4,9 @@ Searches your local machine for LoRA's then heads to CivitAI to download the Tri
 Edit these for your specific machine, the folder_path is where your LoRA's are and the output_folder is where the output files (html, txt) will end up.
 def main():
     # Specify the folder to scan and output folder (modify these paths as needed)
+
     folder_path = r"C:\Users\AI\models\loras"
+    
     output_folder = r"C:\Users\AI\lora_triggers"
 
 Version 2 now downloads and saves thumbnails to your local machine and the mp4 error was fixed by downloading the mp4 in full to your local machine, no more keeping
@@ -15,3 +17,5 @@ The Windows GUI version is easy to use, just run it, add your LoRA location and 
 you will get the same html, text and missing LoRA text files as you do in the python file.
 
 These are free to use, DON'T PAY FOR THEM! Just don't modify them unless of course you come here and mention the changes if any.
+
+trigger_finder.zip is the basic python file, trigger_finder_gui.zip is the Windows executable.
