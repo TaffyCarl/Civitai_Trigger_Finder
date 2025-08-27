@@ -8,3 +8,4 @@ The HTML output file also now has a search function which makes it a damn site e
 
 It (the trigger finder) used to over-write the existing files which was great until you managed to find a missing LoRA then added it to the json and html etc and then it proved a touch flaky so now it saves the files with a date and time addition so you know which is the most current one.
 <img width="1695" height="919" alt="screen cap1" src="https://github.com/user-attachments/assets/1736de46-4046-4388-93f1-2b1c80b418d2" />
+See the Wiki for more details.
