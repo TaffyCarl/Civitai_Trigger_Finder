@@ -1,21 +1,11 @@
-# Civitai_Trigger_Finder
-Searches your local machine for LoRA's then heads to CivitAI to download the Triggers and Thumbnails - pretty simple really.
+Before going on with all the gibberish, Civitai LoRA Trigger Finder up to and including V5 (this version) is copyright Carl Bratcher aka Taffy_Carl, you are free to use it but not reverse engineer, modify, whatever it. While it's a free program, a donation of Buzz on Civitai would be nice ;-) If you see this in places other than Civitai, Github and Pure Fooocus AI on Facebook please let me know. Finally, NEVER PAY FOR IT, It's free apart from a Buzz donation grovel grovel :-)
 
-Edit these for your specific machine, the folder_path is where your LoRA's are and the output_folder is where the output files (html, txt) will end up.
-def main():
-    # Specify the folder to scan and output folder (modify these paths as needed)
+The CivitAI LoRA Trigger Finder has been updated to Version 5, you can also change the output colour of the HTML file 'Dark, Light or System' - just remember that once you've set it, that's the colour the html output will always be unless you delete the html and start from scratch. You now have the option to view the HTML,the TXT version, the JSON and the Not Found LoRA's text directly from the GUI.
 
-    folder_path = r"C:\Users\AI\models\loras"
-    
-    output_folder = r"C:\Users\AI\lora_triggers"
+In short each time you run it, it now reads from a json file instead of going backwards and forwards to Civitai, it will take a little longer on it's first run but after that all it's looking for are newly added LoRA's and if you watch as it's going through your LoRA's for new ones, you will see SKIPPING when it comes across something already in the list.
 
-Version 2 now downloads and saves thumbnails to your local machine and the mp4 error was fixed by downloading the mp4 in full to your local machine, no more keeping
-your fingers crossed that the LoRA maker doesn't delete it thereby leaving you with a missing thumbnail. It also creates a seperate text file of LoRA's on your machine that
-no longer exist on Civitai so you can hunt the interweb to see if they're elsewhere so you can find the trigger words.
+The HTML output file also now has a search function which makes it a damn site easier and a copy button for the trigger(s) of each LoRA so if you leave it open in a new tab when you are toying with AI, you can quickly get to the NSFW LoRA trigger words you want 😉
 
-The Windows GUI version is easy to use, just run it, add your LoRA location and your output location and hit run - then sit back and wait. It'll tell you when it's finished,
-you will get the same html, text and missing LoRA text files as you do in the python file.
+It (the trigger finder) used to over-write the existing files which was great until you managed to find a missing LoRA the added it to the json and html etc and then it proved a touch flaky so now it saves the files with a date and time addition so you know which is the most current one.
 
-These are free to use, DON'T PAY FOR THEM! Just don't modify them unless of course you come here and mention the changes if any.
-
-trigger_finder.zip is the basic python file, trigger_finder_gui.zip is the Windows executable.
+If you happen to remove any LoRA's you will have to delete the above output files and re-run it so it can re-populate the output files.
