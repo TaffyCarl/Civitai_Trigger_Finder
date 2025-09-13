@@ -1,3 +1,5 @@
+Please note that due to the file size limitation, I had to break it apart so you will need to download both zip files - triggerfinder.zip will extract as a folder, copy the contents of additional.zip in to that Trigger Finder folder, the contents of additional need to be in the same directory as Lora_Trigger_Finder_V6.exe. Sorry about that.
+
 Before going on with all the gibberish, Civitai LoRA Trigger Finder up to and including V6 (this version) is copyright Carl Bratcher aka Taffy_Carl, you are free to use it but not reverse engineer, modify, whatever it. While it's a free program, a donation of Buzz on Civitai would be nice ;-) If you see this in places other than Civitai, Github and Pure Fooocus AI on Facebook please let me know. Finally, NEVER PAY FOR IT, It's free apart from a Buzz donation grovel grovel :-) - https://civitai.com/user/Taffy_Carl
 
 Zip Contents - image1.png, image2.png, changeme.jpg, *header.png, Lora_Trigger_Finder_V6.exe, json_validator.exe (see below for this), editing_json.txt and this readme.txt.
